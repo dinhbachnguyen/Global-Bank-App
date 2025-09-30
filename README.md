@@ -100,8 +100,7 @@ dotnet watch run
 
 You can now connect the frontend application to this backend API to fetch services and submit bookings.
 
-```
-
+---
 
 ## Usage
 
