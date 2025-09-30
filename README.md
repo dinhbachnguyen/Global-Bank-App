@@ -76,6 +76,33 @@ npm run dev
 
 ---
 
+## Backend
+
+The backend of this project is built with **C# .NET** and is located in the `bank.api` folder.  
+It handles the API, business logic, and data management for the banking services and appointments.
+
+### Running the Backend
+
+1. Navigate to the backend folder:
+
+```bash
+cd bank.api
+````
+
+2. Restore dependencies, build, and run the project using the .NET CLI:
+
+```bash
+dotnet build
+dotnet watch run
+```
+
+3. By default, the backend API should run on `http://localhost:5000` (or the port configured in the project).
+
+You can now connect the frontend application to this backend API to fetch services and submit bookings.
+
+```
+
+
 ## Usage
 
 * Navigate to **Home** to see an overview of banking services.
