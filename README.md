@@ -12,9 +12,7 @@ A modern **banking services web application** built with **Vue 3**, providing cu
 - [Project Structure](#project-structure)  
 - [Installation](#installation)  
 - [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [Contributing](#contributing)  
-- [License](#license)
+
 
 ---
 
@@ -32,8 +30,8 @@ A modern **banking services web application** built with **Vue 3**, providing cu
 
 - **Frontend:** Vue 3, TypeScript, Vue Router, Pinia (state management)  
 - **Styling:** Tailwind CSS  
-- **Backend (optional):** Node.js / Express (for API)  
-- **Package Manager:** npm  
+- **Backend:** C# .NET (API and business logic)  
+- **Package Manager / Build Tool:** npm
 
 ---
 
