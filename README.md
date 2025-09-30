@@ -109,6 +109,3 @@ You can now connect the frontend application to this backend API to fetch servic
 
 ---
 
-
-If you want, I can **also add some badges and a “Live Demo” section** so it looks more professional for GitHub. Do you want me to do that?
-```
