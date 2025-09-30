@@ -42,7 +42,7 @@ src/
 ├─ assets/          # Images and static assets
 ├─ components/      # Reusable Vue components (ServiceCard, Navbar, Footer)
 ├─ pages/           # Main pages (Home, Services, Contact, Booking, Confirmation)
-├─ store/           # Pinia store for booking state
+├─ stores/           # Pinia store for booking state
 ├─ App.vue          # Root component
 └─ main.ts          # Vue app entry point
 
