@@ -1,33 +1,115 @@
-# bank-project
+# GlobalBank
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern **banking services web application** built with **Vue 3**, providing customers the ability to browse services, book appointments, and view confirmations.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Table of Contents
 
-## Type Support for `.vue` Imports in TS
+- [Features](#features)  
+- [Technologies](#technologies)  
+- [Project Structure](#project-structure)  
+- [Installation](#installation)  
+- [Usage](#usage)  
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Features
 
-## Project Setup
+- Browse various banking services (loans, investments, account opening, mortgage consultation).  
+- Book appointments for selected services.  
+- View appointment confirmation details.  
+- Responsive design for desktop and mobile.  
+- User-friendly interface with Vue components and reusable ServiceCards.  
 
-```sh
+---
+
+## Technologies
+
+- **Frontend:** Vue 3, TypeScript, Vue Router, Pinia (state management)  
+- **Styling:** Tailwind CSS  
+- **Backend:** C# .NET (API and business logic)  
+- **Package Manager / Build Tool:** npm (for frontend development)
+
+---
+
+## Project Structure
+
+```
+
+src/
+├─ assets/          # Images and static assets
+├─ components/      # Reusable Vue components (ServiceCard, Navbar, Footer)
+├─ pages/           # Main pages (Home, Services, Contact, Booking, Confirmation)
+├─ store/           # Pinia store for booking state
+├─ App.vue          # Root component
+└─ main.ts          # Vue app entry point
+
+````
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/global-bank-app.git
+cd global-bank-app
+````
+
+2. **Install dependencies:**
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+3. **Run the development server:**
 
-```sh
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+4. Open `http://localhost:5173` in your browser (Vite default).
 
-```sh
-npm run build
+---
+
+## Backend
+
+The backend of this project is built with **C# .NET** and is located in the `bank.api` folder.  
+It handles the API, business logic, and data management for the banking services and appointments.
+
+### Running the Backend
+
+1. Navigate to the backend folder:
+
+```bash
+cd bank.api
+````
+
+2. Restore dependencies, build, and run the project using the .NET CLI:
+
+```bash
+dotnet restore
+dotnet build
+dotnet run
+```
+
+3. By default, the backend API should run on `http://localhost:5000` (or the port configured in the project).
+
+You can now connect the frontend application to this backend API to fetch services and submit bookings.
+
+
+## Usage
+
+* Navigate to **Home** to see an overview of banking services.
+* Click on a service card to **book an appointment**.
+* Fill out the **booking form** with date, time, and personal information.
+* View the **confirmation page** after submission.
+
+---
+
+
+If you want, I can **also add some badges and a “Live Demo” section** so it looks more professional for GitHub. Do you want me to do that?
 ```
