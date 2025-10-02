@@ -157,4 +157,7 @@ C:\Users\cooic\OneDrive\Bureau\vuejs\bank-project\bank.api\bin\Debug\net8.0\ru\M
 C:\Users\cooic\OneDrive\Bureau\vuejs\bank-project\bank.api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\cooic\OneDrive\Bureau\vuejs\bank-project\bank.api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\cooic\OneDrive\Bureau\vuejs\bank-project\bank.api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+<<<<<<< HEAD
 C:\Users\cooic\OneDrive\Bureau\vuejs\bank-project\bank.api\obj\Debug\net8.0\bank.api.sourcelink.json
+=======
+>>>>>>> 2d2a7f42658cde887520236a19c0708688c1c033
