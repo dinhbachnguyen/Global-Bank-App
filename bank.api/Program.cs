@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();
 
 // EF Core SQLite
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=C:/Users/cooic/OneDrive/Bureau/vuejs/bank-project/bank.api/bank.db"));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=bank.db"));
 
 // CORS for your Vue dev server (adjust port)
 builder.Services.AddCors(options =>
