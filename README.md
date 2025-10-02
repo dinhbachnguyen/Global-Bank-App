@@ -91,8 +91,9 @@ cd bank.api
 2. Restore dependencies, build, and run the project using the .NET CLI:
 
 ```bash
-dotnet build
-dotnet watch run
+dotnet restore
+dotnet ef database update  # run migrations
+dotnet run
 ```
 
 3. By default, the backend API should run on `http://localhost:5000` (or the port configured in the project).
