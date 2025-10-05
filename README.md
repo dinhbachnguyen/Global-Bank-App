@@ -55,7 +55,7 @@ src/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/global-bank-app.git
+git clone https://github.com/dinhbachnguyen/Global-Bank-App.git
 cd global-bank-app
 ````
 
