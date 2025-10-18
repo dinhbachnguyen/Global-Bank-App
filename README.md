@@ -1,4 +1,4 @@
-# GlobalBank
+# Banking App
 
 A modern **banking services web application** built with **Vue 3**, providing customers the ability to browse services, book appointments, and view confirmations.
 
